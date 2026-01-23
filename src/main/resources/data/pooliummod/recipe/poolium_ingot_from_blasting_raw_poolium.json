@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "poolium_ingot",
+  "ingredient": {
+    "item": "pooliummod:raw_poolium"
+  },
+  "result": {
+    "id": "pooliummod:poolium_ingot"
+  }
+}

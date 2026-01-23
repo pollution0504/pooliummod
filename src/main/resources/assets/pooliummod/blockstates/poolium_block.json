@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pooliummod:block/poolium_block"
+    }
+  }
+}

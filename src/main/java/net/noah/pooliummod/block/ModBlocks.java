@@ -22,6 +22,15 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
+    public static final RegistryObject<Block> POOLIUM_BLOCK = registerBlock("poolium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> BORBUS_BLOCK = registerBlock("borbus_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(3f).requiresCorrectToolForDrops()));
+
+
     // two helper methods
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.noah.pooliummod.block.ModBlocks;
+import net.noah.pooliummod.item.ModCreativeModeTabs;
 import net.noah.pooliummod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -33,6 +34,8 @@ public class PooliumMod {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -55,6 +58,8 @@ public class PooliumMod {
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.POOLIUM_ORE);
+            event.accept(ModBlocks.BORBUS_BLOCK);
+            event.accept(ModBlocks.POOLIUM_BLOCK);
         }
     }
 

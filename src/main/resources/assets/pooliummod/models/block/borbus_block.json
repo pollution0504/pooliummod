@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "pooliummod:block/borbus_block_front",
+    "side": "pooliummod:block/borbus_block_other",
+    "top": "pooliummod:block/borbus_block_other"
+  }
+}

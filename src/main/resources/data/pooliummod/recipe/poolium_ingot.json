@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pooliummod:poolium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "pooliummod:poolium_ingot"
+  }
+}

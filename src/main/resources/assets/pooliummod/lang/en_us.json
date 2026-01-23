@@ -2,5 +2,10 @@
   "item.pooliummod.poolium_ingot": "Poolium Ingot",
   "item.pooliummod.raw_poolium": "Raw Poolium",
 
-  "block.pooliummod.poolium_ore": "Poolium Ore"
+  "block.pooliummod.poolium_block": "Block of Poolium",
+  "block.pooliummod.poolium_ore": "Poolium Ore",
+  "block.pooliummod.borbus_block": "Block of Borbus",
+
+  "creativetab.pooliummod.poolium_items": "Poolium Items",
+  "creativetab.pooliummod.poolium_ore": "Poolium Blocks"
 }
